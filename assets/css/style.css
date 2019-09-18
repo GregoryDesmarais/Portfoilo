@@ -5,3 +5,15 @@
 .myPic>img {
     max-width: 20em;
 }
+
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/fishnets-and-hearts.png");
+}
+
+img {
+    opacity: .5;
+}
+
+img:hover {
+    opacity: 1;
+}

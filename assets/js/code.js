@@ -1,6 +1,7 @@
-function showSection(section) {
+function showSection(info) {
     $(".section").addClass("d-none");
-    $(`.${section}`).removeClass("d-none");
+    $(`.${info.section}`).removeClass("d-none");
+    $("title").text(`Gregory Desmarais - ${info.title}`)
 }
 
 function addProjects() {
@@ -10,7 +11,7 @@ function addProjects() {
     for (var i = 0; i < entries.length; i++) {
         if (loop == 0) {
             var newRow = $("<div>");
-            newRow.addClass("row");
+            newRow.addClass("row my-4");
             projBody.append(newRow);
         }
         var newCol = $("<div>");
@@ -51,10 +52,13 @@ function addProjects() {
 $(function() {
 
     addProjects();
-    showSection("aboutMe");
+    showSection({ section: "aboutMe", title: "About Me" });
 
     $(".navigate").click(function() {
-        showSection($(this).attr("data-section"));
+        showSection({
+            section: $(this).attr("data-section"),
+            title: $(this).text()
+        });
     });
 
 
