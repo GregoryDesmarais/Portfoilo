@@ -17,3 +17,7 @@ img {
 img:hover {
     opacity: 1;
 }
+
+i {
+    font-size: 2em !important;
+}
