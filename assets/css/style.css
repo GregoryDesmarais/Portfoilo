@@ -1,0 +1,7 @@
+.projPic {
+    max-height: 15em;
+}
+
+.myPic>img {
+    max-width: 20em;
+}
