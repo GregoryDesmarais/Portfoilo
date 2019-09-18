@@ -11,15 +11,15 @@ function addProjects() {
     for (var i = 0; i < entries.length; i++) {
         if (loop == 0) {
             var newRow = $("<div>");
-            newRow.addClass("row my-4");
+            newRow.addClass("row");
             projBody.append(newRow);
         }
         var newCol = $("<div>");
-        newCol.addClass("col-md-6");
+        newCol.addClass("col-md-6 my-4");
         projBody.find(".row:last").append(newCol);
 
         var newCard = $("<div>");
-        newCard.addClass("card h-100 text-center");
+        newCard.addClass("card h-100  text-center");
 
         var newCardHeader = $("<div>");
         newCardHeader.addClass("card-header");
