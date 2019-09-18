@@ -19,7 +19,7 @@ function addProjects() {
         projBody.find(".row:last").append(newCol);
 
         var newCard = $("<div>");
-        newCard.addClass("card text-center");
+        newCard.addClass("card h-100 text-center");
 
         var newCardHeader = $("<div>");
         newCardHeader.addClass("card-header");
