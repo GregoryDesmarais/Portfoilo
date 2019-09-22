@@ -37,7 +37,7 @@ function addProjects() {
             </figcaption>
         </figure>
         <a href="${projects[entries[i]].codeURL}" class="btn btn-primary">View Code</a>
-        <a href="${projects[entries[i]].liveURL}" class="btn btn-primary">View App</a>
+        ${(projects[entries[i]].liveURL) ? `<a href="${projects[entries[i]].liveURL}" class="btn btn-primary">View App</a>` : ""}
         `);
         newCard.append(newCardHeader)
             .append(newCardBody)
