@@ -3,7 +3,7 @@ var projects = {
         name: "LIRI Bot",
         img: "assets/images/liri.png",
         description: `A node.js command-line application, which accepts user input to search for music on Spotify, concert venues for bands, or movie information.`,
-        codeURL: "https://github.com/GregoryDesmarais/LIRI"
+        codeURL: "https://github.com/GregoryDesmarais/LIRI-Bot"
     },
     project1: {
         name: "FlightPlan",
