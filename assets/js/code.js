@@ -50,7 +50,6 @@ function addProjects() {
 }
 
 $(function() {
-
     addProjects();
     showSection({ section: "aboutMe", title: "About Me" });
 
