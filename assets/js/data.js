@@ -1,4 +1,10 @@
 var projects = {
+    bamazon: {
+        name: "bamazon",
+        img: "assets/images/bamazon.png",
+        description: "A node.js command-line storefront application.  A customer-oriented app for purchasing, and a manager-oriented app for manipulating the database.",
+        codeURL: "https://github.com/GregoryDesmarais/bamazon"
+    },
     LIRI: {
         name: "LIRI Bot",
         img: "assets/images/liri.png",
