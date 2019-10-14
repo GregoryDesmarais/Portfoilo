@@ -31,16 +31,19 @@ function addProjects() {
         <figure>
             <img class="img-fluid projPic" src="${projects[entries[i]].img}">
             <figcaption class="figure-caption">
-            <p>
+            <p class='pt-3'>
                 ${projects[entries[i]].description}
             </p>
             </figcaption>
         </figure>
+        `);
+        var newCardFooter = $(`<div class='card-footer'>
         <a href="${projects[entries[i]].codeURL}" class="btn btn-primary">View Code</a>
         ${(projects[entries[i]].liveURL) ? `<a href="${projects[entries[i]].liveURL}" class="btn btn-primary">View App</a>` : ""}
-        `);
+        </div>`);
         newCard.append(newCardHeader)
             .append(newCardBody)
+            .append(newCardFooter)
             .appendTo(newCol);
         loop++;
         if (loop === 2) {
