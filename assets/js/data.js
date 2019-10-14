@@ -4,7 +4,7 @@ var projects = {
         img: "assets/images/ffinder.png",
         description: "A simple full-stack application which takes user input via a survey, and determines a friend based on the results. Also adds the data to the friends list.",
         codeURL: "https://github.com/GregoryDesmarais/FriendFinder",
-        liveURL: "https://guarded-chamber-40954.herokuapp.com/survey"
+        liveURL: "https://guarded-chamber-40954.herokuapp.com/"
     },
     bamazon: {
         name: "bamazon",
