@@ -1,4 +1,11 @@
 var projects = {
+    eatDaBurger: {
+        name: "Eat-Da-Burger!",
+        img: "assets/images/burger.jpg",
+        description: "A Heroku application which stores a list of burger names in a database, and allows the user to add and 'devour' burgers.",
+        codeURL: "https://github.com/GregoryDesmarais/burger",
+        liveURL: "https://whispering-escarpment-19131.herokuapp.com/"
+    },
     friendFinder: {
         name: "FriendFinder",
         img: "assets/images/ffinder.png",
