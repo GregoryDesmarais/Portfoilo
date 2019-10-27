@@ -2,7 +2,7 @@ var projects = {
     eatDaBurger: {
         name: "Eat-Da-Burger!",
         img: "assets/images/burger.jpg",
-        description: "A Heroku application which stores a list of burger names in a database, and allows the user to add and 'devour' burgers.",
+        description: "A simple full-stack application, deployed to Heroku, which utilizes a custom ORM and MYSQL to Store, list, and update the end-user's input. In this case, to track names of Burgers they may have or already have eaten. The page is dynamically created using Express and Handlebars.",
         codeURL: "https://github.com/GregoryDesmarais/burger",
         liveURL: "https://whispering-escarpment-19131.herokuapp.com/"
     },
