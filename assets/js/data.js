@@ -1,4 +1,11 @@
 var projects = {
+    project2: {
+        name: "CropCircle",
+        img: "assets/images/cropCircle.png",
+        description: "CropCircle is a small group collaboration done as a group assignment for the coding bootcamp. It is a means of learning new material, practicing old material and showing off to potential employers the skills and abilities of the group members. CropCircle is a fully functioning forum that allows clients to create a unique username and join loose discussions covering different topics.",
+        codeURL: "https://github.com/GregoryDesmarais/project2",
+        liveURL: "https://project2-project-boogaloo.herokuapp.com/"
+    },
     eatDaBurger: {
         name: "Eat-Da-Burger!",
         img: "assets/images/burger.jpg",
