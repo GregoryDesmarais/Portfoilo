@@ -2,7 +2,7 @@ var projects = {
     project2: {
         name: "CropCircle",
         img: "assets/images/cropCircle.png",
-        description: "CropCircle is a small group collaboration assignment for the coding bootcamp. CropCircle is a fully functioning forum that allows clients to create a unique username and join loose discussions covering different topics.",
+        description: "CropCircle is a small group collaboration utilizing NodeJS, Express, Handlebars, sequelize ORM, and MySQL. CropCircle is a fully functioning forum that allows clients to create a unique username and join loose discussions covering different topics.",
         codeURL: "https://github.com/GregoryDesmarais/project2-cropcircle",
         liveURL: "https://project2-cropcircle.herokuapp.com/"
     },
