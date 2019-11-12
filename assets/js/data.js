@@ -32,12 +32,12 @@ var projects = {
         description: `A node.js command-line application, which accepts user input to search for music on Spotify, concert venues for bands, or movie information.`,
         codeURL: "https://github.com/GregoryDesmarais/LIRI-Bot"
     },
-    project1: {
+    FlightPlan: {
         name: "FlightPlan",
         img: "assets/images/plane.gif",
         description: `A collabration project which displays low cost flights and destination events!`,
-        codeURL: "https://github.com/sdaniels6363/bootcamp-project-1",
-        liveURL: "http://sdaniels6363.github.io/bootcamp-project-1"
+        codeURL: "https://github.com/GregoryDesmarais/FlightPlan",
+        liveURL: "https://gregorydesmarais.github.io/FlightPlan/"
     },
     wordGuess: {
         name: "Word Guess",
