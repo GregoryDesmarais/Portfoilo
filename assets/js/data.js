@@ -1,10 +1,24 @@
 var projects = {
+    project1: {
+        name: "Project 1 - FlightPlan",
+        img: "assets/images/plane.gif",
+        description: `A collabration project which displays low cost flights and destination events!`,
+        codeURL: "https://github.com/GregoryDesmarais/FlightPlan",
+        liveURL: "https://gregorydesmarais.github.io/FlightPlan/"
+    },
     project2: {
-        name: "CropCircle",
+        name: "Project 2 - CropCircle",
         img: "assets/images/cropCircle.png",
         description: "A full-stack project utilizing NodeJS, Express, Handlebars, sequelize ORM, and MySQL. CropCircle is a fully functioning forum that allows clients to create a unique username and join loose discussions covering different topics.",
         codeURL: "https://github.com/GregoryDesmarais/project2-cropcircle",
         liveURL: "https://project2-cropcircle.herokuapp.com/"
+    },
+    newsScraper: {
+        name: "newsScraper",
+        img: "assets/images/newsScraper.png",
+        description: "A full-stack project utilizing NodeJS, Express, Handlebars, MongoDB/Mongoose, Axios, and Cheerio. newsScraper will scrape and present the latest stories from Engadget.  Clients can then view and add comments to the articles.",
+        codeURL: "https://github.com/GregoryDesmarais/newsScraper",
+        liveURL: "https://hw-newsscraper.herokuapp.com/"
     },
     eatDaBurger: {
         name: "Eat-Da-Burger!",
@@ -32,13 +46,6 @@ var projects = {
     //     description: `A node.js command-line application, which accepts user input to search for music on Spotify, concert venues for bands, or movie information.`,
     //     codeURL: "https://github.com/GregoryDesmarais/LIRI-Bot"
     // },
-    FlightPlan: {
-        name: "FlightPlan",
-        img: "assets/images/plane.gif",
-        description: `A collabration project which displays low cost flights and destination events!`,
-        codeURL: "https://github.com/GregoryDesmarais/FlightPlan",
-        liveURL: "https://gregorydesmarais.github.io/FlightPlan/"
-    },
     // wordGuess: {
     //     name: "Word Guess",
     //     img: "assets/images/code.jpg",
