@@ -13,6 +13,13 @@ var projects = {
         codeURL: "https://github.com/GregoryDesmarais/project2-cropcircle",
         liveURL: "https://project2-cropcircle.herokuapp.com/"
     },
+    clickyGame: {
+        name: "clickyGame",
+        img: "assets/images/clickyGame.png",
+        description: "In this React application, the goal is to click the character portraits to earn points. However, if the user clicks the same character more than one, the game is over!",
+        codeURL: "https://github.com/GregoryDesmarais/clickyGame",
+        liveURL: "https://gregorydesmarais.github.io/clickyGame/"
+    },
     newsScraper: {
         name: "newsScraper",
         img: "assets/images/newsScraper.png",

@@ -29,7 +29,7 @@ function addProjects() {
         newCardBody.addClass("card-body");
         newCardBody.append(`
         <figure>
-            <img class="img-fluid projPic" src="${projects[entries[i]].img}">
+            <img class="img-fluid projPic" src="${projects[entries[i]].img}" alt="${projects[entries[i]].name}">
             <figcaption class="figure-caption">
             <p class='pt-3'>
                 ${projects[entries[i]].description}
