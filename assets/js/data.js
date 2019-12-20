@@ -13,6 +13,13 @@ var projects = {
         codeURL: "https://github.com/GregoryDesmarais/project2-cropcircle",
         liveURL: "https://project2-cropcircle.herokuapp.com/"
     },
+    gbs: {
+        name: "GoogleBookSearch",
+        img: "assets/images/gbs.png",
+        description: "A complete MERN application which allows a user to search for books, view their information, and save it to a database list.",
+        codeURL: "https://github.com/GregoryDesmarais/GoogleBookSearch",
+        liveURL: "https://gd-googlebooksearch.herokuapp.com/"
+    },
     clickyGame: {
         name: "clickyGame",
         img: "assets/images/clickyGame.png",
@@ -27,20 +34,20 @@ var projects = {
         codeURL: "https://github.com/GregoryDesmarais/newsScraper",
         liveURL: "https://hw-newsscraper.herokuapp.com/"
     },
-    eatDaBurger: {
-        name: "Eat-Da-Burger!",
-        img: "assets/images/burger.jpg",
-        description: "A simple full-stack application, deployed to Heroku, which utilizes a custom ORM and MYSQL to Store, list, and update the end-user's input. In this case, to track names of Burgers they may have or already have eaten. The page is dynamically created using Express and Handlebars.",
-        codeURL: "https://github.com/GregoryDesmarais/burger",
-        liveURL: "https://whispering-escarpment-19131.herokuapp.com/"
-    },
-    friendFinder: {
-        name: "FriendFinder",
-        img: "assets/images/ffinder.png",
-        description: "A simple full-stack application which takes user input via a survey, and determines a friend based on the results. Also adds the data to the friends list.",
-        codeURL: "https://github.com/GregoryDesmarais/FriendFinder",
-        liveURL: "https://guarded-chamber-40954.herokuapp.com/"
-    },
+    // eatDaBurger: {
+    //     name: "Eat-Da-Burger!",
+    //     img: "assets/images/burger.jpg",
+    //     description: "A simple full-stack application, deployed to Heroku, which utilizes a custom ORM and MYSQL to Store, list, and update the end-user's input. In this case, to track names of Burgers they may have or already have eaten. The page is dynamically created using Express and Handlebars.",
+    //     codeURL: "https://github.com/GregoryDesmarais/burger",
+    //     liveURL: "https://whispering-escarpment-19131.herokuapp.com/"
+    // },
+    // friendFinder: {
+    //     name: "FriendFinder",
+    //     img: "assets/images/ffinder.png",
+    //     description: "A simple full-stack application which takes user input via a survey, and determines a friend based on the results. Also adds the data to the friends list.",
+    //     codeURL: "https://github.com/GregoryDesmarais/FriendFinder",
+    //     liveURL: "https://guarded-chamber-40954.herokuapp.com/"
+    // },
     bamazon: {
         name: "bamazon",
         img: "assets/images/bamazon.png",
