@@ -2,16 +2,23 @@ var projects = {
     project1: {
         name: "Project 1 - FlightPlan",
         img: "assets/images/plane.gif",
-        description: `A collabration project which displays low cost flights and destination events!`,
+        description: `A collaboration project which displays low cost flights and destination events!`,
         codeURL: "https://github.com/GregoryDesmarais/FlightPlan",
         liveURL: "https://gregorydesmarais.github.io/FlightPlan/"
     },
     project2: {
         name: "Project 2 - CropCircle",
         img: "assets/images/cropCircle.png",
-        description: "A full-stack project utilizing NodeJS, Express, Handlebars, sequelize ORM, and MySQL. CropCircle is a fully functioning forum that allows clients to create a unique username and join loose discussions covering different topics.",
+        description: "A full-stack collaboration project utilizing NodeJS, Express, Handlebars, sequelize ORM, and MySQL. CropCircle is a fully functioning forum that allows clients to create a unique username and join loose discussions covering different topics.",
         codeURL: "https://github.com/GregoryDesmarais/project2-cropcircle",
         liveURL: "https://project2-cropcircle.herokuapp.com/"
+    },
+    project3: {
+        name: "Project 3 - Custom Corner",
+        img: "assets/images/customCorner.png",
+        description: "A complete MERN application.  This purpose of this collaboration project is to give interior designers the ability to search the inventory of multiple vendors from one page - giving them a single pane of glass experience.",
+        codeURL: "https://github.com/sdaniels6363/furniture-db",
+        liveURL: "https://custom-corners.com/"
     },
     gbs: {
         name: "GoogleBookSearch",
