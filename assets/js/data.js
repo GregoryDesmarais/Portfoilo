@@ -18,7 +18,7 @@ var projects = {
         img: "assets/images/customCorner.png",
         description: "A complete MERN application.  This purpose of this collaboration project is to give interior designers the ability to search the inventory of multiple vendors from one page - giving them a single pane of glass experience.",
         codeURL: "https://github.com/GregoryDesmarais/furniture-db",
-        liveURL: "https://custom-corners.com/"
+        liveURL: "https://demo.custom-corner.com/"
     },
     gbs: {
         name: "GoogleBookSearch",
