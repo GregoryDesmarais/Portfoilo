@@ -17,7 +17,7 @@ var projects = {
         name: "Project 3 - Custom Corner",
         img: "assets/images/customCorner.png",
         description: "A complete MERN application.  This purpose of this collaboration project is to give interior designers the ability to search the inventory of multiple vendors from one page - giving them a single pane of glass experience.",
-        // codeURL: "https://github.com/GregoryDesmarais/furniture-db",
+        demoURL: "https://jeff-paul-greco.github.io/Custom-Corner-Demo/",
         liveURL: "https://demo.custom-corner.com/"
     },
     gbs: {
@@ -48,13 +48,13 @@ var projects = {
     //     codeURL: "https://github.com/GregoryDesmarais/burger",
     //     liveURL: "https://whispering-escarpment-19131.herokuapp.com/"
     // },
-    // friendFinder: {
-    //     name: "FriendFinder",
-    //     img: "assets/images/ffinder.png",
-    //     description: "A simple full-stack application which takes user input via a survey, and determines a friend based on the results. Also adds the data to the friends list.",
-    //     codeURL: "https://github.com/GregoryDesmarais/FriendFinder",
-    //     liveURL: "https://guarded-chamber-40954.herokuapp.com/"
-    // },
+    friendFinder: {
+        name: "FriendFinder",
+        img: "assets/images/ffinder.png",
+        description: "A simple full-stack application which takes user input via a survey, and determines a friend based on the results. Also adds the data to the friends list.",
+        codeURL: "https://github.com/GregoryDesmarais/FriendFinder",
+        liveURL: "https://guarded-chamber-40954.herokuapp.com/"
+    },
     bamazon: {
         name: "bamazon",
         img: "assets/images/bamazon.png",

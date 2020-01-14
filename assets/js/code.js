@@ -37,10 +37,11 @@ function addProjects() {
             </figcaption>
         </figure>
         `);
-        var newCardFooter = $(`<div class='card-footer'>
-        <a href="${projects[entries[i]].codeURL}" class="btn btn-primary">View Code</a>
-        ${(projects[entries[i]].liveURL) ? `<a href="${projects[entries[i]].liveURL}" class="btn btn-primary">View App</a>` : ""}
-        </div>`);
+        let code = projects[entries[i]].codeURL ? `<a href="${projects[entries[i]].codeURL}" class="btn btn-primary">View Code</a>` : "";
+        let live = projects[entries[i]].liveURL ? `<a href="${projects[entries[i]].liveURL}" class="btn btn-primary">View App</a>` : "";
+        let demo = projects[entries[i]].demoURL ? `<a href="${projects[entries[i]].demoURL}" class="btn btn-primary">View Demo</a>` : "";
+
+        var newCardFooter = $(`<div class='card-footer'> ${code} ${live} ${demo}</div>`);
         newCard.append(newCardHeader)
             .append(newCardBody)
             .append(newCardFooter)
