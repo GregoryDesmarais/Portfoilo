@@ -1,24 +1,32 @@
 var projects = {
-    project1: {
-        name: "Project 1 - FlightPlan",
-        img: "assets/images/plane.gif",
-        description: `A collaboration project which displays low cost flights and destination events!`,
-        codeURL: "https://github.com/GregoryDesmarais/FlightPlan",
-        liveURL: "https://gregorydesmarais.github.io/FlightPlan/"
+    dcTools: {
+        name: "DC Tools",
+        img: "assets/images/dctools.png",
+        description: `DC Tools is a collection of tools created to provide better QoL for Data Center Technicians. Originally created with HTML, CSS, JavaScript/jQuery, and PHP. This version uses the MERN (Mongo, Express, React, Node) stack and is mobile-responsive.`,
+        codeURL: "https://github.com/GregoryDesmarais/dcTools",
+        liveURL: "https://dctools.herokuapp.com"
+
     },
-    project2: {
-        name: "Project 2 - CropCircle",
-        img: "assets/images/cropCircle.png",
-        description: "A full-stack collaboration project utilizing NodeJS, Express, Handlebars, sequelize ORM, and MySQL. CropCircle is a fully functioning forum that allows clients to create a unique username and join loose discussions covering different topics.",
-        codeURL: "https://github.com/GregoryDesmarais/project2-cropcircle",
-        liveURL: "https://project2-cropcircle.herokuapp.com/"
-    },
+    // project1: {
+    //     name: "Project 1 - FlightPlan",
+    //     img: "assets/images/plane.gif",
+    //     description: `A collaboration project which displays low cost flights and destination events!`,
+    //     codeURL: "https://github.com/GregoryDesmarais/FlightPlan",
+    //     liveURL: "https://gregorydesmarais.github.io/FlightPlan/"
+    // },
     project3: {
-        name: "Project 3 - Custom Corner",
+        name: "Custom Corner",
         img: "assets/images/customCorner.png",
         description: "A complete MERN application.  This purpose of this collaboration project is to give interior designers the ability to search the inventory of multiple vendors from one page - giving them a single pane of glass experience.",
         demoURL: "https://jeff-paul-greco.github.io/Custom-Corner-Demo/",
         liveURL: "https://demo.custom-corner.com/"
+    },
+    project2: {
+        name: "CropCircle",
+        img: "assets/images/cropCircle.png",
+        description: "A full-stack collaboration project utilizing NodeJS, Express, Handlebars, sequelize ORM, and MySQL. CropCircle is a fully functioning forum that allows clients to create a unique username and join loose discussions covering different topics.",
+        codeURL: "https://github.com/GregoryDesmarais/project2-cropcircle",
+        liveURL: "https://project2-cropcircle.herokuapp.com/"
     },
     gbs: {
         name: "GoogleBookSearch",
@@ -48,19 +56,19 @@ var projects = {
     //     codeURL: "https://github.com/GregoryDesmarais/burger",
     //     liveURL: "https://whispering-escarpment-19131.herokuapp.com/"
     // },
-    friendFinder: {
-        name: "FriendFinder",
-        img: "assets/images/ffinder.png",
-        description: "A simple full-stack application which takes user input via a survey, and determines a friend based on the results. Also adds the data to the friends list.",
-        codeURL: "https://github.com/GregoryDesmarais/FriendFinder",
-        liveURL: "https://guarded-chamber-40954.herokuapp.com/"
-    },
-    bamazon: {
-        name: "bamazon",
-        img: "assets/images/bamazon.png",
-        description: "A node.js command-line storefront application.  A customer-oriented app for purchasing, and a manager-oriented app for manipulating the database.",
-        codeURL: "https://github.com/GregoryDesmarais/bamazon"
-    },
+    // friendFinder: {
+    //     name: "FriendFinder",
+    //     img: "assets/images/ffinder.png",
+    //     description: "A simple full-stack application which takes user input via a survey, and determines a friend based on the results. Also adds the data to the friends list.",
+    //     codeURL: "https://github.com/GregoryDesmarais/FriendFinder",
+    //     liveURL: "https://guarded-chamber-40954.herokuapp.com/"
+    // },
+    // bamazon: {
+    //     name: "bamazon",
+    //     img: "assets/images/bamazon.png",
+    //     description: "A node.js command-line storefront application.  A customer-oriented app for purchasing, and a manager-oriented app for manipulating the database.",
+    //     codeURL: "https://github.com/GregoryDesmarais/bamazon"
+    // },
     // LIRI: {
     //     name: "LIRI Bot",
     //     img: "assets/images/liri.png",
